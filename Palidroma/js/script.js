@@ -1,3 +1,4 @@
+/* ATTRAVERSO UNA FUNZIONE DEFINIAMO SE LA PAROLA INSERITA IN UN PROMPT SIA PALINDROMA O NO */
 function palindromeWord(word){
     word = word.toLowerCase()
     let reverseWord = word.split("").reverse().join("");
